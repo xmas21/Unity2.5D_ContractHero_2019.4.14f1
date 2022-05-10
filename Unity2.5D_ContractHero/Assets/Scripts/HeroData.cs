@@ -25,7 +25,7 @@ public class Skill
 {
     public string name;
 
-    [Header("攻擊"), Range(0f, 100f)]
+    [Header("攻擊"), Range(0f, 1000f)]
     public float attack;
     [Header("消耗"), Range(0f, 100f)]
     public float cost;
